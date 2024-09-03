@@ -1,0 +1,9 @@
+A design pattern that helps you separate the creation code from the main code, see with an example:
+
+Suppose an airport ticket center. I am giving the route I want to go to, suppose Palestine to Bangladesh,
+now I don't know which plane does that and I don't even have to worry about that because,
+the ticket center will manage the plane according to the plane routes. 
+I say "Palestine-to-Bangladesh" I'm given Crescent Airlines that travels from Bangladesh Palestine vice versa. 
+The ticket finding and creating is done by the factory class. Whereas the main code which includes ordering the ticket and getting the 
+destination does not involve any mention of how the ticket was created, does it? No, rather we ordered and they gave after creating from
+somewhere else- the factory class!
