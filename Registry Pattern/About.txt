@@ -1,0 +1,4 @@
+Basic Factory Pattern involves OCP violation in the factory class, the if-else thingy, so registry pattern improves this place.
+Instead of one factory class, we create factory classes for different types of the same thing e.g. shape, ticket. Then we register the 
+factories against the shape/ticket classes via a HashMap or any map (Linked HashMap, TreeMap). Then I also tried configuring those registries 
+separately via FactoryConfig class so that we don't need to implement the registry inside the main class.
